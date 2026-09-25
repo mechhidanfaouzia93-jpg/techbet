@@ -1,19 +1,30 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+
+import { Outlet } from 'react-router'
 import './App.css'
+import { Footer } from './layouts/components/Footer'
+import { Header } from './layouts/components/Header'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-     <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-600">
-        Hello Tailwind 🚀
-      </h1>
-    </div>
+     <Header />
+
+     <div className="min-h-screen flex flex-col">
+  
+  
+  <main className="flex-1">
+
+    <Outlet />
+    
+  </main>
+
+ 
+  <Footer />
+
+</div>
     </>
   )
 }
