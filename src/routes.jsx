@@ -1,8 +1,12 @@
 
-import home from "./layouts/pages/Home";
-import about from "./layouts/pages/About";
-import faq from "./layouts/pages/Faq";
-import notFound from "./layouts/pages/NotFound";
+import Home from "./layouts/pages/Home";
+import About from "./layouts/pages/About";
+import Faq from "./layouts/pages/Faq";
+import NotFound from "./layouts/pages/NotFound";
+import Expertise from "./layouts/pages/Expertise";
+import Realisations from "./layouts/pages/Realisations";
+import References from "./layouts/pages/References";
+import Contact from "./layouts/pages/Contact";
 import App from "./App";
 
 
@@ -21,6 +25,23 @@ export const routes = [
             {
                 path: "/faq",
                 element: <Faq />,
+            },
+            {
+                path: "/expertise",
+                element: <Expertise />
+            },
+            {
+                path: "/realisations",
+                element: <Realisations />
+            },
+            {
+                path: "/references",
+                element: <References />
+
+            },
+            {
+                path: "/contact",
+                element: <Contact />
             },
 
 
