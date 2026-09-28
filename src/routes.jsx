@@ -1,5 +1,7 @@
 
 import Home from "./layouts/pages/Home";
+import Services from "./layouts/pages/Services";
+import ServiceDetail from "./layouts/pages/ServiceDetail";
 import About from "./layouts/pages/About";
 import Faq from "./layouts/pages/Faq";
 import NotFound from "./layouts/pages/NotFound";
@@ -19,6 +21,14 @@ export const routes = [
             {
                 index: true,
                 element: <Home />,
+            },
+            {
+                path: "/services",
+                element: <Services />
+            },
+            {
+                path: "/services/:service",
+                element: <ServiceDetail />
             },
             {
                 path: "/about",
