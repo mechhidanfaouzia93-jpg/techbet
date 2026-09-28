@@ -1,32 +1,19 @@
-
-import { Outlet } from 'react-router'
-import './App.css'
-import { Footer } from './layouts/components/Footer'
-import { Header } from './layouts/components/Header'
-
+import { Outlet } from "react-router-dom";
+import Header from "./layouts/components/Header";
+import Footer from "./layouts/components/Footer";
 
 function App() {
-  
-
   return (
     <>
-     <Header />
+      <Header />
 
-     <div className="min-h-screen flex flex-col">
-  
-  
-  <main className="flex-1">
+      <main>
+        <Outlet />
+      </main>
 
-    <Outlet />
-    
-  </main>
-
- 
-  <Footer />
-
-</div>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

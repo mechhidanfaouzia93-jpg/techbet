@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/logo-techbat.png";
 
-function Navbar() {
+function Header() {
   const navLinks = [
     { name: "Accueil", path: "/" },
     { name: "Qui sommes-nous ?", path: "/about" },
@@ -82,4 +82,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Header;

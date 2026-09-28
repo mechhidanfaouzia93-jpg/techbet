@@ -5,6 +5,7 @@ import Faq from "./layouts/pages/Faq";
 import NotFound from "./layouts/pages/NotFound";
 import Expertise from "./layouts/pages/Expertise";
 import Realisations from "./layouts/pages/Realisations";
+import ProjectDetail from "./layouts/pages/ProjectDetail";
 import References from "./layouts/pages/References";
 import Contact from "./layouts/pages/Contact";
 import App from "./App";
@@ -18,7 +19,8 @@ export const routes = [
             {
                 index: true,
                 element: <Home />,
-            }, {
+            },
+            {
                 path: "/about",
                 element: <About />,
             },
@@ -33,6 +35,10 @@ export const routes = [
             {
                 path: "/realisations",
                 element: <Realisations />
+            },
+            {
+                path: "/realisations/:slug",
+                element: <ProjectDetail />
             },
             {
                 path: "/references",

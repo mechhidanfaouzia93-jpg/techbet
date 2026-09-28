@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/logo-techbat.png";
+import logo from "../../assets/logo-techbat.png";
 
 function Footer() {
   return (
