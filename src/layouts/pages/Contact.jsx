@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+const API_URL = import.meta.env.VITE_API_URL;
+
 function Contact() {
   const [submitted, setSubmitted] = useState(false);
   const [verificationRequired, setVerificationRequired] = useState(false);
@@ -23,7 +25,7 @@ function Contact() {
     };
 
     try {
-      const response = await fetch("http://localhost:5000/api/contact", {
+      const response = await fetch(`${API_URL}/api/contact`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -53,7 +55,7 @@ function Contact() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/verify-email",
+        `${API_URL}/api/verify-email`,
         {
           method: "POST",
           headers: {
