@@ -7,6 +7,7 @@ function Home() {
       description:
         "Chauffage, ventilation et climatisation pour des bâtiments confortables, performants et économes en énergie.",
       color: "#3A9CD7",
+      href: "/services/hvac",
     },
     {
       number: "02",
@@ -14,6 +15,7 @@ function Home() {
       description:
         "Des installations électriques conçues pour répondre aux exigences techniques, fonctionnelles et réglementaires.",
       color: "#EE287A",
+      href: "/services/electricite",
     },
     {
       number: "03",
@@ -21,6 +23,7 @@ function Home() {
       description:
         "Des réseaux sanitaires et hydrauliques fiables, pensés pour la durabilité et la performance.",
       color: "#8CC53D",
+      href: "/services/plomberie-sanitaire",
     },
     {
       number: "04",
@@ -28,6 +31,7 @@ function Home() {
       description:
         "Des solutions de sécurité incendie intégrées pour protéger efficacement les personnes et les bâtiments.",
       color: "#EE9E5C",
+      href: "/services/detection-incendie",
     },
   ];
 
@@ -232,17 +236,14 @@ function Home() {
 
       </section>
 
-
       {/* =========================================================
-          SERVICES
-      ========================================================= */}
+    SERVICES
+========================================================= */}
       <section className="bg-[#F5F7F9] py-24 lg:py-28">
-
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
           {/* Heading */}
           <div className="max-w-2xl">
-
             <div className="flex items-center gap-4">
               <span className="h-px w-10 bg-[#3A9CD7]" />
 
@@ -257,16 +258,14 @@ function Home() {
                 pensées pour durer.
               </span>
             </h2>
-
           </div>
-
 
           {/* Services */}
           <div className="mt-16">
 
-            {services.map((service, index) => (
+            {services.map((service) => (
               <a
-                href="/services"
+                href={service.href}
                 key={service.number}
                 className="group relative flex flex-col gap-6 border-t border-slate-300 py-8 transition-all duration-300 hover:px-5 md:flex-row md:items-center md:gap-12"
               >
@@ -281,26 +280,19 @@ function Home() {
                   </span>
                 </div>
 
-
                 {/* Title */}
                 <div className="md:w-[30%]">
-
                   <h3 className="text-2xl font-bold text-[#203558] transition-colors duration-300 group-hover:text-[#3A9CD7] sm:text-3xl">
                     {service.title}
                   </h3>
-
                 </div>
-
 
                 {/* Description */}
                 <div className="flex-1">
-
                   <p className="max-w-xl text-sm leading-7 text-[#58595B]">
                     {service.description}
                   </p>
-
                 </div>
-
 
                 {/* Arrow */}
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-slate-300 text-[#203558] transition-all duration-300 group-hover:border-[#3A9CD7] group-hover:bg-[#3A9CD7] group-hover:text-white">
@@ -315,10 +307,7 @@ function Home() {
           </div>
 
         </div>
-
       </section>
-
-
       {/* =========================================================
           FEATURE / IMAGE
       ========================================================= */}

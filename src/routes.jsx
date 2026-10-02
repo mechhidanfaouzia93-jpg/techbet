@@ -10,6 +10,10 @@ import Realisations from "./layouts/pages/Realisations";
 import ProjectDetail from "./layouts/pages/ProjectDetail";
 import References from "./layouts/pages/References";
 import Contact from "./layouts/pages/Contact";
+import HVAC from "./pages/services/HVAC";
+import Electricite from "./pages/services/Electricite";
+import PlomberieSanitaire from "./pages/services/PlomberieSanitaire";
+import DetectionIncendie from "./pages/services/DetectionIncendie";
 import App from "./App";
 
 
@@ -27,8 +31,20 @@ export const routes = [
                 element: <Services />
             },
             {
-                path: "/services/:service",
-                element: <ServiceDetail />
+                path: "/services/hvac",
+                element: <HVAC />
+            },
+            {
+                path: "/services/electricite",
+                element: <Electricite />
+            },
+            {
+                path: "/services/plomberie-sanitaire",
+                element: <PlomberieSanitaire />
+            },
+            {
+                path: "/services/detection-incendie",
+                element: <DetectionIncendie />
             },
             {
                 path: "/about",
