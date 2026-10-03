@@ -9,7 +9,7 @@ import {
   Phone,
   X,
 } from "lucide-react";
-import logo from "../../assets/logo-techbat.png";
+
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -78,7 +78,7 @@ function Header() {
             className="group flex shrink-0 items-center"
           >
             <img
-              src={logo}
+              src="/logo-techbat.png"
               alt="TECHBAT"
               className="h-[60px] w-auto object-contain transition-transform duration-300 group-hover:scale-[1.02] lg:h-[66px]"
             />

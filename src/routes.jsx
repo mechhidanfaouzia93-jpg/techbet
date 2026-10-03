@@ -1,7 +1,6 @@
 
 import Home from "./layouts/pages/Home";
 import Services from "./layouts/pages/Services";
-import ServiceDetail from "./layouts/pages/ServiceDetail";
 import About from "./layouts/pages/About";
 import Faq from "./layouts/pages/Faq";
 import NotFound from "./layouts/pages/NotFound";
@@ -10,10 +9,10 @@ import Realisations from "./layouts/pages/Realisations";
 import ProjectDetail from "./layouts/pages/ProjectDetail";
 import References from "./layouts/pages/References";
 import Contact from "./layouts/pages/Contact";
-import HVAC from "./pages/services/HVAC";
-import Electricite from "./pages/services/Electricite";
-import PlomberieSanitaire from "./pages/services/PlomberieSanitaire";
-import DetectionIncendie from "./pages/services/DetectionIncendie";
+import HVAC from "./layouts/pages/services/HVAC";
+import Electricite from "./layouts/pages/services/Electricite";
+import PlomberieSanitaire from "./layouts/pages/services/PlomberieSanitaire";
+import DetectionIncendie from "./layouts/pages/services/DetectionIncendie";
 import App from "./App";
 
 

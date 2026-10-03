@@ -535,36 +535,55 @@ export default function ProjectDetail() {
         </div>
       </section>
 
+  
       {/* =====================================================
-          CTA FINAL
+          CTA
       ===================================================== */}
-      <section className="bg-[#203558] py-24">
-        <div className="mx-auto max-w-4xl px-6 text-center lg:px-8">
+      <section className="px-6 pb-20 lg:px-8 lg:pb-24">
+        <div className="mx-auto max-w-6xl">
 
-          <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-[#3A9CD7]">
-            <Wrench className="h-7 w-7 text-white" />
+          <div className="relative overflow-hidden rounded-3xl bg-[#203558] px-8 py-12 md:px-12 md:py-14">
+
+            {/* Décor */}
+            <div className="absolute right-[-80px] top-[-100px] h-72 w-72 rounded-full border-[55px] border-[#3A9CD7]/10" />
+
+            <div className="relative flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
+
+              <div className="max-w-2xl">
+
+                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#8CC53D]">
+                  Votre projet
+                </p>
+
+                <h2 className="mt-3 text-3xl font-bold text-white md:text-4xl">
+                  Un besoin en techniques spéciales ?
+                </h2>
+
+                <p className="mt-4 leading-7 text-white/60">
+                  Parlons de votre projet et des solutions techniques
+                  adaptées à votre bâtiment.
+                </p>
+
+              </div>
+
+              <Link
+                to="/contact"
+                className="group inline-flex shrink-0 items-center justify-center gap-3 rounded-xl bg-[#3A9CD7] px-6 py-3.5 font-semibold text-white transition-all duration-300 hover:bg-white hover:text-[#203558]"
+              >
+                Nous contacter
+
+                <ArrowRight
+                  size={18}
+                  className="transition-transform duration-300 group-hover:translate-x-1"
+                />
+              </Link>
+
+            </div>
+
           </div>
-
-          <h2 className="mt-7 text-4xl font-bold text-white sm:text-5xl">
-            Un projet similaire ?
-          </h2>
-
-          <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-300">
-            TECHBAT vous accompagne dans vos projets de construction,
-            rénovation et transformation de bâtiments.
-          </p>
-
-          <Link
-            to="/contact"
-            className="mt-9 inline-flex items-center gap-3 rounded-xl bg-white px-7 py-4 font-semibold text-[#203558] transition hover:bg-[#3A9CD7] hover:text-white"
-          >
-            Parlons de votre projet
-            <ArrowUpRight className="h-5 w-5" />
-          </Link>
 
         </div>
       </section>
-
     </main>
   );
 }

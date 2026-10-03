@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo-techbat.png";
+
 
 function Footer() {
   return (
@@ -15,13 +15,13 @@ function Footer() {
 
             <div className="mb-6 inline-block rounded-lg bg-white px-5 py-3">
               <img
-                src={logo}
+                src="/logo-techbat.png"
                 alt="TECHBAT"
                 className="h-16 w-auto"
               />
             </div>
 
-            <p className="max-w-xl text-sm leading-7 text-slate-200">
+            {/* <p className="max-w-xl text-sm leading-7 text-slate-200">
               TECHBAT est spécialisée dans les techniques spéciales
               du bâtiment : HVAC, électricité, plomberie sanitaire
               et détection incendie.
@@ -31,7 +31,7 @@ function Footer() {
               Notre expérience et notre expertise nous permettent
               d'accompagner nos clients dans la conception et la
               réalisation de solutions techniques fiables et durables.
-            </p>
+            </p> */}
 
           </div>
 

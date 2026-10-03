@@ -17,12 +17,12 @@ export const projects = [
       "RIA",
     ],
 
-    image: "/assets/projects/parlement-europeen/cover.png",
+    image: "/images/parlement-europeen/cover.png",
 
     gallery: [
-      "/assets/projects/parlement-europeen/01.jpg",
-      "/assets/projects/parlement-europeen/02.jpg",
-      "/assets/projects/parlement-europeen/03.jpg",
+      "/images/parlement-europeen/01.jpg",
+      "/images/parlement-europeen/02.jpg",
+      "/images/parlement-europeen/03.jpg",
     ],
 
     status: "Projet en cours d'exécution",
@@ -87,7 +87,7 @@ export const projects = [
       "RIA",
     ],
 
-    image: "/assets/projects/spinelli-1/cover.jpg",
+    image: "/images/spinelli-1/cover.jpg",
 
     description:
       "Aménagement de projets situés au bâtiment Spinelli du Parlement Européen, comprenant les lots HVAC, électricité et sanitaire.",
@@ -140,11 +140,11 @@ export const projects = [
       "Sanitaire",
     ],
 
-    image: "/assets/projects/eurostation/cover.png",
+    image: "/images/eurostation/cover.png",
 
     gallery: [
-      "/assets/projects/eurostation/01.png",
-      "/assets/projects/eurostation/02.png",
+      "/images/eurostation/01.png",
+      "/images/eurostation/02.png",
     ],
 
     description:
@@ -205,7 +205,7 @@ export const projects = [
       "Régulation climatique",
     ],
 
-    image: "/assets/projects/cap-sud/cover.png",
+    image: "/images/cap-sud/cover.png",
 
     description:
       "Notre mission a couvert l’intégralité des prestations liées aux lots techniques, incluant la ventilation, les installations sanitaires, les réseaux hydrauliques ainsi que la régulation des zones climatiques.",
@@ -269,7 +269,7 @@ export const projects = [
       "Régulation climatique",
     ],
 
-    image: "/assets/projects/namur-cauchy/cover.png",
+    image: "/images/namur-cauchy/cover.png",
 
     description:
       "Notre mission a couvert l’intégralité des prestations liées aux lots techniques, incluant la ventilation, les installations sanitaires, les réseaux hydrauliques ainsi que la régulation des zones climatiques.",
@@ -326,7 +326,7 @@ export const projects = [
       "Régulation climatique",
     ],
 
-    image: "/assets/projects/tour-paradis/cover.png",
+    image: "/images/tour-paradis/cover.png",
 
     description:
       "Notre mission a consisté en la réalisation de prestations liées aux HVAC et sanitaires, incluant la régulation des zones climatiques.",
@@ -385,7 +385,7 @@ export const projects = [
       "Data Center",
     ],
 
-    image: "/assets/projects/spw-namur/cover.png",
+    image: "/images/spw-namur/cover.png",
 
     description:
       "Centre de données conçu dans un bâtiment existant, avec une capacité de 60 racks et une puissance de 1 kW/m².",
@@ -437,7 +437,7 @@ export const projects = [
       "Project Management",
     ],
 
-    image: "/assets/projects/casablanca-finance-city/cover.png",
+    image: "/images/casablanca-finance-city/cover.png",
 
     description:
       "Nouveau siège de Casablanca Finance City, avec un bâtiment de 31.000 m² et une hauteur de 120 mètres.",
@@ -477,7 +477,7 @@ export const projects = [
       "E+C",
     ],
 
-    image: "/assets/projects/campus-engie/cover.png",
+    image: "/images/campus-engie/cover.png",
 
     description:
       "Mission d'assistance à maîtrise d'ouvrage pour les lots techniques et les certifications environnementales du Campus ENGIE.",
@@ -536,7 +536,7 @@ export const projects = [
       "Acoustique",
     ],
 
-    image: "/assets/projects/rtbf/cover.png",
+    image: "/images/rtbf/cover.png",
 
     description:
       "Nouveau siège de la RTBF à Bruxelles comprenant studios, salles de réunion, plateaux de bureaux et hall logistique.",
@@ -580,7 +580,7 @@ export const projects = [
       "Acoustique",
     ],
 
-    image: "/assets/projects/arkelia-ucb/cover.jpg",
+    image: "/images/arkelia-ucb/cover.jpg",
 
     description:
       "Nouveau bâtiment R&D sur le site UCB à Braine, comprenant des laboratoires BSL2, BSL2+ et un espace readyBSL3.",

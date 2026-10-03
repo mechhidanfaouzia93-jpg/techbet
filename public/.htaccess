@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Ne pas réécrire les vrais fichiers et dossiers
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Toutes les routes React vont vers index.html
+RewriteRule ^ index.html [L]
